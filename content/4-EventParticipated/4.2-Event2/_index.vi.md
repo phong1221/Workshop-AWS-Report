@@ -1,12 +1,11 @@
 ---
-title: "Event 2: Hackathon FCAJ x Agentic AI"
+title: "Sự kiện 2: Hackathon FCAJ x Agentic AI"
 date: 2024-01-01
 weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Sự kiện 2: Sự kiện Hackathon "FCAJ x Agentic AI Build Week"
 
 - **Tên sự kiện:** Agentic AI Build Week powered by GenAI Fund
 - **Thời gian:** 09:00 ngày 25/07/2026

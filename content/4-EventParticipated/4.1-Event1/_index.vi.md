@@ -1,12 +1,11 @@
 ---
-title: "Event 1: Gameshow Cloud Architect"
+title: "Sự kiện 1: Gameshow Cloud Architect"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Sự kiện 1: Gameshow công nghệ “Cloud Architect”
 
 - **Tên sự kiện:** Cloud Architect Workshop
 - **Thời gian:** 09:00 ngày 20/06/2026

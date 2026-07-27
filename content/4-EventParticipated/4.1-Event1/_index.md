@@ -6,7 +6,6 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Event 1: "Cloud Architect" Tech Gameshow
 
 - **Event Name:** Cloud Architect Workshop
 - **Date & Time:** 09:00, June 20, 2026

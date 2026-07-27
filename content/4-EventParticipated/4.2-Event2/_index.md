@@ -6,7 +6,6 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Event 2: Hackathon "FCAJ x Agentic AI Build Week"
 
 - **Event Name:** Agentic AI Build Week powered by GenAI Fund
 - **Date & Time:** 09:00, July 25, 2026
