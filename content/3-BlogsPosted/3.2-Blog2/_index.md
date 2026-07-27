@@ -38,4 +38,5 @@ The architecture eliminates public internet transit for GenAI data through priva
 ---
 
 ### Reference Documentation
+* **Link blog:** [https://www.facebook.com/groups/awsstudygroupfcj/permalink/2207763766655250](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2207763766655250)
 * **Original Article on AWS Architecture Blog:** [Amazon Bedrock baseline architecture in an AWS landing zone](https://aws.amazon.com/vi/blogs/architecture/amazon-bedrock-baseline-architecture-in-an-aws-landing-zone/)

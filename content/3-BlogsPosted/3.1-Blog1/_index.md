@@ -50,4 +50,5 @@ Beyond protecting input data, the architecture secures output responses via Amaz
 ---
 
 ### Reference Documentation
+* **Link blog:** [https://www.facebook.com/groups/awsstudygroupfcj/permalink/2202745123823781](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2202745123823781)
 * **Original Article on AWS Architecture Blog:** [Secure multi-tenant RAG with Amazon Bedrock and Verified Permissions](https://aws.amazon.com/vi/blogs/architecture/secure-multi-tenant-rag-with-amazon-bedrock-and-verified-permissions/)

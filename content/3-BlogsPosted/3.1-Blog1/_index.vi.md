@@ -50,4 +50,5 @@ Ngoài việc bảo vệ dữ liệu đầu vào, hệ thống còn thiết lậ
 ---
 
 ### Tài Liệu Tham Khảo
+* **Link blog:** [https://www.facebook.com/groups/awsstudygroupfcj/permalink/2202745123823781](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2202745123823781)
 * **Bài viết gốc trên AWS Architecture Blog:** [Secure multi-tenant RAG with Amazon Bedrock and Verified Permissions](https://aws.amazon.com/vi/blogs/architecture/secure-multi-tenant-rag-with-amazon-bedrock-and-verified-permissions/)

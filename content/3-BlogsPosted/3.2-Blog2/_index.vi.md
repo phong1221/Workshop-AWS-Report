@@ -38,4 +38,5 @@ Hệ thống loại bỏ hoàn toàn việc lưu thông lưu lượng dữ liệ
 ---
 
 ### Tài Liệu Tham Khảo
+* **Link blog:** [https://www.facebook.com/groups/awsstudygroupfcj/permalink/2207763766655250](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2207763766655250)
 * **Bài viết gốc trên AWS Architecture Blog:** [Amazon Bedrock baseline architecture in an AWS landing zone](https://aws.amazon.com/vi/blogs/architecture/amazon-bedrock-baseline-architecture-in-an-aws-landing-zone/)

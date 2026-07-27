@@ -40,4 +40,5 @@ However, when transitioning from monolithic servers (EC2/VPS) to Serverless, dev
 ---
 
 ### Reference Documentation
+* **Link blog:** [https://www.facebook.com/groups/awsstudygroupfcj/permalink/2223905021707791](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2223905021707791)
 * **Original Article on AWS Architecture Blog:** [Issues to Avoid When Implementing Serverless Architecture with AWS Lambda](https://aws.amazon.com/vi/blogs/architecture/mistakes-to-avoid-when-implementing-serverless-architecture-with-lambda/)
