@@ -1,5 +1,5 @@
-baseURL = "/"
-relativeURLs = false
+baseURL = "https://phong1221.github.io/Workshop-AWS-Report/"
+relativeURLs = true
 canonifyURLs = false
 defaultContentLanguage = "en"
 
