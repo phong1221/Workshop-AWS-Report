@@ -29,12 +29,25 @@ Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về t
 
 
 ### Một số câu hỏi khác
-- Điều bạn **hài lòng nhất** trong thời gian thực tập?  
-- Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
-- Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
 
+* **Điều bạn hài lòng nhất trong thời gian thực tập?**  
+  Điều khiến tôi hài lòng nhất là được trao cơ hội tiếp cận trực tiếp với các công nghệ đám mây và Trí tuệ Nhân tạo tạo hình (Generative AI) hàng đầu trên nền tảng AWS Bedrock. Tôi được tự tay thiết kế và triển khai giải pháp thực tế **SmartDocAI** với các kỹ thuật RAG nâng cao (Self-RAG, Co-RAG Multi-Agent), kiến trúc Serverless Container, CI/CD tự động và bảo mật đa tầng. Sự hướng dẫn tận tình, chuyên nghiệp từ Mentor cùng môi trường làm việc cởi mở, khuyến khích tư duy chủ động đã giúp tôi bứt phá giới hạn bản thân.
+
+* **Điều bạn nghĩ công ty cần cải thiện cho các thực tập sinh sau?**  
+  Chương trình bootcamp FCAJ được tổ chức rất bài bản. Tuy nhiên, tôi đề xuất có thể bổ sung thêm các buổi Workshop chuyên sâu về quy trình Debugging & Observability thực tế trên AWS (như CloudWatch Tracing, X-Ray) cũng như hướng dẫn quản lý tài nguyên theo mô hình Infrastructure as Code (AWS CDK / Terraform) ngay từ các tuần đầu để giúp thực tập sinh khóa sau tiếp cận và quản lý dự án lớn hiệu quả hơn.
+
+* **Nếu giới thiệu cho bạn bè, bạn có khuyên họ thực tập ở đây không? Vì sao?**  
+  Chắc chắn 100% tôi sẽ khuyên bạn bè đăng ký tham gia chương trình thực tập tại AWS Viet Nam (Workforce Bootcamp - First Cloud AI Journey). Lý do là vì chương trình không chỉ cung cấp lộ trình đào tạo chuẩn quốc tế mà còn tạo môi trường chiến đấu thực chiến với các công nghệ hot nhất thị trường (Cloud & AI). Thực tập sinh được trực tiếp chịu trách nhiệm phát triển các giải pháp chất lượng Production, được đồng hành cùng những chuyên gia hàng đầu và có cơ hội phát triển sự nghiệp rất rõ ràng.
+
+---
 
 ### Đề xuất & mong muốn
-- Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?  
-- Bạn có muốn tiếp tục chương trình này trong tương lai?
-- Góp ý khác (tự do chia sẻ):
+
+* **Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?**  
+  Tôi đề xuất tăng cường thêm các phiên Demo Day hoặc Technical Sharing định kỳ giữa các nhóm dự án trong bootcamp. Việc này giúp các bạn thực tập sinh học hỏi lẫn nhau về kiến trúc hệ thống, kinh nghiệm xử lý bug thực tế cũng như rèn luyện kỹ năng thuyết trình chuyên môn.
+
+* **Bạn có muốn tiếp tục chương trình này trong tương lai?**  
+  Rất mong muốn! Tôi rất hy vọng sẽ tiếp tục được đồng hành cùng AWS Viet Nam và chương trình First Cloud AI Journey trong các vai trò tiến xa hơn (như Solution Architect Associate hoặc Cloud/AI Engineer), đóng góp năng lực vào các dự án đám mây quy mô lớn hơn của công ty.
+
+* **Góp ý khác (tự do chia sẻ):**  
+  Xin gửi lời cảm ơn chân thành nhất đến Ban tổ chức chương trình Workforce Bootcamp - First Cloud AI Journey, đội ngũ Admin và các vị Mentor tại Công ty TNHH Amazon Web Services Viet Nam. Hai tháng thực tập vừa qua là một hành trình vô cùng giá trị, giúp tôi nâng tầm cả về tư duy công nghệ lẫn phong cách làm việc chuyên nghiệp. Chúc chương trình FCAJ ngày càng phát triển và tiếp tục là cầu nối vững chắc cho thế hệ kỹ sư Cloud/AI trẻ tại Việt Nam!

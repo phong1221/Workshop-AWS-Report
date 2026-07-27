@@ -31,13 +31,25 @@ The company provides an internship allowance and offers flexible working hours w
 ---
 
 ### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
+
+* **What did you find most satisfying during your internship?**  
+  What satisfied me the most was being given the opportunity to work directly with state-of-the-art Cloud and Generative AI technologies on AWS Bedrock. I was able to design and deploy a real-world system (**SmartDocAI**) implementing advanced RAG techniques (Self-RAG, Co-RAG Multi-Agent), Serverless Container architecture, automated CI/CD pipelines, and multi-layer security. Dedicated mentorship, paired with an open environment that encourages initiative, helped me push beyond my limits.
+
+* **What do you think the company should improve for future interns?**  
+  The FCAJ bootcamp program was exceptionally well-structured. However, I would suggest adding deep-dive workshops on real-world AWS Debugging & Observability (such as CloudWatch Tracing and X-Ray), as well as Infrastructure as Code (AWS CDK / Terraform) during the early weeks. This will help future interns manage complex cloud projects even more effectively.
+
+* **If recommending to a friend, would you suggest they intern here? Why or why not?**  
+  100% yes! I would strongly recommend my peers to apply for the AWS Viet Nam internship program (Workforce Bootcamp - First Cloud AI Journey). The program offers world-class training combined with hands-on practice in the most in-demand technologies (Cloud & AI). Interns are entrusted with developing production-grade solutions rather than trivial tasks, working alongside top experts with a clear career development roadmap.
 
 ---
 
 ### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+
+* **Do you have any suggestions to improve the internship experience?**  
+  I suggest introducing regular Demo Days or Technical Sharing sessions between different project teams in the bootcamp. This would allow interns to cross-learn architectural insights, share real-world debugging experiences, and sharpen their technical presentation skills.
+
+* **Would you like to continue this program in the future?**  
+  Absolutely! I sincerely hope to continue my journey with AWS Viet Nam and the First Cloud AI Journey program in advanced roles (such as Associate Solutions Architect or Cloud/AI Engineer), contributing to larger-scale cloud computing initiatives.
+
+* **Any other comments (free sharing):**  
+  I would like to express my heartfelt gratitude to the organizers of the Workforce Bootcamp - First Cloud AI Journey, the Admin team, and my Mentors at Amazon Web Services Viet Nam Company Limited. This 2-month internship has been a transformative experience, enhancing both my technical mindset and professional work ethic. I wish the FCAJ program continued success in nurturing the next generation of Cloud & AI engineers in Vietnam!
