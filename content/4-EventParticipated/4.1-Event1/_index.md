@@ -10,7 +10,7 @@ pre: " <b> 4.1. </b> "
 - **Event Name:** Cloud Architect Workshop
 - **Date & Time:** 09:00, June 20, 2026
 - **Location:** 26th Floor, Bitexco Financial Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
-- **Role:** Attendee (Audience)
+- **Role:** Attendee 
 
 ---
 

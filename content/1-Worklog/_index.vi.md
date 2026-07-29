@@ -8,7 +8,6 @@ pre: " <b> 1. </b> "
 
 Trang này tổng hợp nhật ký công việc (Worklog) thực hiện trong 8 tuần thực tập (từ ngày **22/06/2026** đến ngày **14/08/2026**).
 
-Các hạng mục chính được triển khai bao gồm: Nghiên cứu công nghệ hạ tầng AWS Serverless, Triển khai dịch vụ lưu trữ Amazon S3 cho Backend, Triển khai dịch vụ quản lý xác thực người dùng Amazon Cognito (Đăng ký/Đăng nhập và gửi mã OTP xác thực qua Email) và Triển khai cơ sở dữ liệu NoSQL Amazon DynamoDB.
 
 ### Danh sách các tuần thực hiện:
 

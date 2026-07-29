@@ -10,7 +10,7 @@ pre: " <b> 4.1. </b> "
 - **Tên sự kiện:** Cloud Architect Workshop
 - **Thời gian:** 09:00 ngày 20/06/2026
 - **Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
-- **Vai trò trong sự kiện:** Người tham dự (Khán giả)
+- **Vai trò trong sự kiện:** Người tham dự
 
 ---
 

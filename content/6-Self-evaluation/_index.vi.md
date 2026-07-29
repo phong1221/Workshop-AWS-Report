@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-Trong suốt thời gian thực tập tại **Công ty TNHH Amazon Web Services Viet Nam** (chương trình **Workforce Bootcamp - First Cloud AI Journey**) từ ngày **22/06/2026** đến ngày **22/08/2026**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng các kiến thức chuyên môn đã tích lũy tại trường Đại học Sài Gòn vào môi trường thực tế tại một tập đoàn công nghệ hàng đầu thế giới.
+Trong suốt thời gian thực tập tại **Công ty TNHH Amazon Web Services Viet Nam** (chương trình **Workforce Bootcamp - First Cloud AI Journey**) từ ngày **22/06/2026** đến ngày **15/08/2026**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng các kiến thức chuyên môn đã tích lũy tại trường Đại học Sài Gòn vào môi trường thực tế tại một tập đoàn công nghệ hàng đầu thế giới.
 
 Trong kỳ thực tập, tôi đã trực tiếp tham gia nghiên cứu, thiết kế và phát triển dự án **SmartDocAI - Nền tảng Hỏi đáp & Trích xuất Tri thức Tài liệu Thông minh trên hạ tầng AWS Serverless Container Architecture**. Qua đó, tôi đã gặt hái được nhiều kinh nghiệm thực tế và nâng cao toàn diện các kỹ năng chuyên môn bao gồm: **Điện toán đám mây (AWS Cloud & Serverless Services)**, **Trí tuệ nhân tạo tạo hình & kỹ thuật RAG (AWS Bedrock, Advanced RAG, Hybrid Search)**, **Phát triển Web Full-stack (FastAPI & React SPA)**, **Tự động hóa CI/CD (AWS CodePipeline/CodeBuild)** và **Bảo mật hệ thống (AWS Cognito, KMS, Per-User Isolation)**.
 

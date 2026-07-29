@@ -8,7 +8,7 @@ pre: " <b> 1. </b> "
 
 This section summarizes the worklog completed across 8 weeks (from **June 22, 2026** to **August 14, 2026**).
 
-Key components implemented include: Researching AWS Serverless architecture, deploying Amazon S3 storage for Backend, deploying Amazon Cognito authentication (Registration, Login, and Email OTP verification), and deploying Amazon DynamoDB NoSQL database.
+
 
 ### Weekly Worklog Schedule:
 

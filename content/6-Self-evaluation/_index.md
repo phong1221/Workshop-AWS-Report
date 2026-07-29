@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-During my internship at **Amazon Web Services Viet Nam Company Limited** (**Workforce Bootcamp - First Cloud AI Journey**) from **22/06/2026** to **22/08/2026**, I had the invaluable opportunity to learn, practice, and apply the technical knowledge acquired at Saigon University to a real-world environment at a world-leading technology enterprise.
+During my internship at **Amazon Web Services Viet Nam Company Limited** (**Workforce Bootcamp - First Cloud AI Journey**) from **22/06/2026** to **15/08/2026**, I had the invaluable opportunity to learn, practice, and apply the technical knowledge acquired at Saigon University to a real-world environment at a world-leading technology enterprise.
 
 Throughout the internship, I directly participated in researching, designing, and developing the **SmartDocAI** project — an **Intelligent Document Question Answering & Knowledge Extraction Platform built on AWS Serverless Container Architecture**. Through this project, I gained extensive hands-on experience and significantly enhanced my skill set across multiple domains, including: **Cloud Computing (AWS Cloud & Serverless Services)**, **Generative AI & RAG Engineering (AWS Bedrock, Advanced RAG, Hybrid Search)**, **Full-stack Web Development (FastAPI & React SPA)**, **CI/CD Automation (AWS CodePipeline/CodeBuild)**, and **System Security (AWS Cognito, KMS, Per-User Isolation)**.
 
