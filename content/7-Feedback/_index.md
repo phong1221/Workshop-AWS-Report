@@ -24,7 +24,7 @@ During the internship, I learned many new skills such as using project managemen
 The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
 
 **6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
+The company provides an ideal environment for students to learn, expand their knowledge, and consolidate their major field of study. Flexible working conditions are supported, official internship stamps/verifications are provided to complete university requirements, and access to internal training sessions is a major highlight.
 
 ---
 

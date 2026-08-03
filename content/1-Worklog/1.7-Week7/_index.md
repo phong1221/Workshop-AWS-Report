@@ -1,5 +1,5 @@
 ---
-title: "Worklog Week 7: DynamoDB Data Layer & Profile Management Integration"
+title: "Worklog Week 7: Video Demo Recording & Finalizing Remaining Report Sections"
 date: 2024-01-01
 weight: 7
 chapter: false
@@ -7,22 +7,22 @@ pre: " <b> 1.7. </b> "
 ---
 
 ### Objectives:
-* Build User Profile management APIs interfacing data across Backend services, Cognito, DynamoDB, and S3.
-* Automate profile record initialization in DynamoDB upon successful account confirmation.
-* Implement profile updating and Avatar upload pipeline integrating S3 Presigned URLs with DynamoDB storage.
+* Develop video script and record a system demo video illustrating the full operational workflow of SmartDocAI.
+* Audit, author, and finalize all remaining incomplete internship report sections and documentation figures.
+* Package the complete project report on the Hugo site and perform final presentation quality verification.
 
 ### Work Performed:
 
 | Task | Start Date | End Date | Reference Documents |
 | --- | --- | --- | --- |
-| - Research theoretical concepts: Automated profile initialization syncing authentication service and database.<br>- **Hands-on practice:**<br>&emsp;+ Step 1: Integrate logic creating initial profile record on DynamoDB upon successful OTP confirmation.<br>&emsp;+ Step 2: Store initial attributes including user ID, Email, and creation timestamp.<br>&emsp;+ Step 3: Verify initial profile record persists accurately in DynamoDB storage. | 03/08/2026 | 03/08/2026 | [Amazon DynamoDB Developer Guide](https://docs.aws.amazon.com/dynamodb/) |
-| - Research theoretical concepts: Business logic for retrieving logged-in user profile details.<br>- **Hands-on practice:**<br>&emsp;+ Step 1: Build personal profile retrieval processing flow on Backend.<br>&emsp;+ Step 2: Automatically decode JWT Token in HTTP Header to extract user identity.<br>&emsp;+ Step 3: Query profile details from DynamoDB and return JSON payload to client UI. | 04/08/2026 | 04/08/2026 | [DynamoDB Core Components](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html) |
-| - Research theoretical concepts: Business logic for updating user profile fields.<br>- **Hands-on practice:**<br>&emsp;+ Step 1: Build profile update payload processing flow (Name, Phone) on Backend.<br>&emsp;+ Step 2: Validate payload input data format and constraints on Backend.<br>&emsp;+ Step 3: Save updated profile attributes to DynamoDB alongside updated timestamp. | 05/08/2026 | 05/08/2026 | [Amazon DynamoDB Developer Guide](https://docs.aws.amazon.com/dynamodb/) |
-| - Research theoretical concepts: S3 Presigned URL integration with DynamoDB for Avatar photo updates.<br>- **Hands-on practice:**<br>&emsp;+ Step 1: Build Presigned URL generation flow dedicated to user avatar image files.<br>&emsp;+ Step 2: Allow client UI to upload Avatar image directly from workstation to S3 Bucket.<br>&emsp;+ Step 3: Save corresponding Avatar image S3 path to user profile record in DynamoDB. | 06/08/2026 | 06/08/2026 | [Amazon S3 Presigned URLs Guide](https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-presigned-url.html) |
-| - Research theoretical concepts: Automated testing methods verifying profile management feature correctness.<br>- **Hands-on practice:**<br>&emsp;+ Step 1: Build automated test scenarios verifying profile read and update operations.<br>&emsp;+ Step 2: Test missing JWT Token scenarios verifying unauthorized access blocks.<br>&emsp;+ Step 3: Confirm all automated test cases pass successfully. | 07/08/2026 | 07/08/2026 | |
-| - Research overview: Evaluating end-to-end user data flow synchronization.<br>- **Hands-on practice:**<br>&emsp;+ Step 1: Execute end-to-end integration test from client UI: Sign Up -> OTP -> Login.<br>&emsp;+ Step 2: Test personal profile viewing, editing Name/Phone, and updating Avatar photo.<br>&emsp;+ Step 3: Confirm user profile data displays synchronously in real time on web application. | 08/08/2026 | 08/08/2026 | |
+| - Develop detailed video script and outline for system Video Demo recording.<br>- **Hands-on practice:**<br>&emsp;+ Step 1: Draft video demo script covering 4 main segments: Serverless AWS Architecture Overview -> User Registration & Email OTP Activation with Cognito -> Profile Management & Direct Avatar Upload to S3 via Presigned URL -> DynamoDB NoSQL Persistence.<br>&emsp;+ Step 2: Prepare test dataset environment and inspect screen recording and audio equipment quality.<br>&emsp;+ Step 3: Review video script with team members to ensure technical depth and clarity. | 03/08/2026 | 03/08/2026 | |
+| - Conduct screen recording for video demo system feature segments.<br>- **Hands-on practice:**<br>&emsp;+ Step 1: Perform live user interactions on Web application UI: executing registration, entering Email OTP code, logging in, and navigating profile management views.<br>&emsp;+ Step 2: Perform avatar image upload to S3 via Presigned URL and switch to AWS Management Console to visually demonstrate S3 bucket object keys and DynamoDB item attributes.<br>&emsp;+ Step 3: Verify video recording resolution, crisp visual quality, and voiceover audio clarity. | 04/08/2026 | 04/08/2026 | |
+| - Perform video post-production editing and finalize system Demo Video.<br>- **Hands-on practice:**<br>&emsp;+ Step 1: Trim and edit recorded raw footage segments ensuring smooth pacing and optimal video duration.<br>&emsp;+ Step 2: Overlay technical subtitles and callout annotations explaining interaction flows between Web Client, FastAPI Backend, Cognito, S3, and DynamoDB.<br>&emsp;+ Step 3: Render final video in Full HD (1080p) format and upload to video hosting platform for report embedding. | 05/08/2026 | 05/08/2026 | |
+| - Audit and finalize all remaining incomplete report sections.<br>- **Hands-on practice:**<br>&emsp;+ Step 1: Audit all report pages on Hugo reporting site against internship project requirements checklist.<br>&emsp;+ Step 2: Author all remaining missing sections: adding detailed overall architecture diagrams, tools inventory table, published blogs, and feedback/contributions.<br>&emsp;+ Step 3: Proofread for technical writing consistency, correct typographical errors, and align Markdown layouts across English and Vietnamese versions. | 06/08/2026 | 06/08/2026 | |
+| - Package report content and verify hyperlinking across Hugo site.<br>- **Hands-on practice:**<br>&emsp;+ Step 1: Launch local Hugo test server for comprehensive site-wide inspection.<br>&emsp;+ Step 2: Verify 100% of reference hyperlinks, blog article URLs, and embedded demo video playback on report pages.<br>&emsp;+ Step 3: Run static site generation build command confirming zero warnings or broken link errors. | 07/08/2026 | 07/08/2026 | |
+| - Final overall site audit and completion of 7-week internship project on schedule.<br>- **Hands-on practice:**<br>&emsp;+ Step 1: Perform final end-to-end review of SmartDocAI project report site across both Vietnamese and English language options.<br>&emsp;+ Step 2: Confirm 100% completion of work items across all 7 internship weeks in alignment with AWS Mentors guidance.<br>&emsp;+ Step 3: Declare project report documentation and demo video fully ready for formal council presentation. | 08/08/2026 | 08/08/2026 | |
 
 ### Results Achieved:
-* Successfully integrated 100% of User Profile management APIs connecting Cognito, DynamoDB, and S3.
-* User profile data initialized synchronously, managed consistently, and updated in real-time.
-* Avatar upload feature via S3 Presigned URL operating reliably with accurate asset links stored in DynamoDB.
+* Produced a professional system demo video visually demonstrating AWS Serverless architecture workflows.
+* Successfully finalized 100% of remaining report sections with high technical quality and clear presentation.
+* Hugo report site fully packaged, operating smoothly, and ready for official project presentation council.

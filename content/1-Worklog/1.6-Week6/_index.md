@@ -1,5 +1,5 @@
 ---
-title: "Worklog Week 6: Amazon DynamoDB Database Research & Deployment"
+title: "Worklog Week 6: Technology Component Testing & End-to-End System Testing"
 date: 2024-01-01
 weight: 6
 chapter: false
@@ -7,22 +7,22 @@ pre: " <b> 1.6. </b> "
 ---
 
 ### Objectives:
-* Analyze user data storage requirements and design NoSQL data models for the database layer.
-* Provision data table on Amazon DynamoDB service optimizing cost and security posture.
-* Configure data encryption at rest and build base database interaction routines.
+* Conduct component testing for deployed cloud infrastructure technologies (Amazon S3, Amazon Cognito, Amazon DynamoDB, FastAPI Backend).
+* Execute End-to-End System Integration Testing (E2E Testing) across the entire project to verify stability and security.
+* Audit overall system performance and finalize technical acceptance sign-off.
 
 ### Work Performed:
 
 | Task | Start Date | End Date | Reference Documents |
 | --- | --- | --- | --- |
-| - Research theoretical concepts: User profile storage attribute requirements for application.<br>- **Hands-on practice:**<br>&emsp;+ Step 1: Draft Blog 3 (*5 Classic Mistakes When Deploying Serverless*) content.<br>&emsp;+ Step 2: Publish Blog 3 on AWS Study Group VN community forum.<br>&emsp;+ Step 3: Design detailed user profile data entity schema. | 27/07/2026 | 27/07/2026 | [DynamoDB Core Components](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html) & Blog 3 |
-| - Research theoretical concepts: NoSQL data modeling for user profile table and selecting Partition Keys.<br>- **Hands-on practice:**<br>&emsp;+ Step 1: Define NoSQL data persistence schema on Amazon DynamoDB.<br>&emsp;+ Step 2: Select user identity attribute as primary Partition Key for uniform distribution.<br>&emsp;+ Step 3: Map satellite profile attributes (Full Name, Phone, Avatar Path). | 28/07/2026 | 28/07/2026 | [Amazon DynamoDB Developer Guide](https://docs.aws.amazon.com/dynamodb/) |
-| - Research theoretical concepts: On-Demand capacity management mode on Amazon DynamoDB.<br>- **Hands-on practice:**<br>&emsp;+ Step 1: Provision user profile database storage area on AWS Management Console.<br>&emsp;+ Step 2: Configure On-Demand capacity mode for dynamic auto-scaling per traffic.<br>&emsp;+ Step 3: Optimize operational costs charging strictly per active read/write request. | 29/07/2026 | 29/07/2026 | [Amazon DynamoDB Developer Guide](https://docs.aws.amazon.com/dynamodb/) |
-| - Research theoretical concepts: Encryption at Rest security features protecting database tables.<br>- **Hands-on practice:**<br>&emsp;+ Step 1: Access security configuration tab on DynamoDB Management Console.<br>&emsp;+ Step 2: Enable Encryption at Rest security feature protecting stored database items.<br>&emsp;+ Step 3: Confirm encryption status protecting user profile records at rest. | 30/07/2026 | 30/07/2026 | [DynamoDB Encryption at Rest](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/EncryptionAtRest.html) |
-| - Research theoretical concepts: Data Layer module implementation interfacing Backend with Amazon DynamoDB.<br>- **Hands-on practice:**<br>&emsp;+ Step 1: Program data interaction module connecting Backend app with DynamoDB.<br>&emsp;+ Step 2: Build processing flows for profile initialization, data retrieval, and attribute updates.<br>&emsp;+ Step 3: Add exception handling mechanisms for connectivity or query failures. | 31/07/2026 | 31/07/2026 | [Amazon DynamoDB Developer Guide](https://docs.aws.amazon.com/dynamodb/) |
-| - Team meeting: Evaluate DynamoDB performance, finalize SmartDocAI project acceptance, and prepare for final presentation. | 01/08/2026 | 01/08/2026 | |
+| - Publish technical Blog 3 and conduct Amazon S3 technology testing.<br>- **Practice & Blog 3 Publishing:**<br>&emsp;+ Step 1: Draft technical article **Blog 3** (*5 Classic Pitfalls When Deploying Serverless Architecture on AWS & How to Avoid Them*) and publish on AWS Study Group VN.<br>&emsp;+ Step 2: Test S3 technological features: SSE-S3 AES-256 encryption enforcement, Block Public Access isolation flag, and S3 Bucket Policy constraints.<br>&emsp;+ Step 3: Test Presigned URL TTL expiration handling and verify valid HTTP CORS response headers from client browsers. | 27/07/2026 | 27/07/2026 | [Amazon S3 User Guide](https://docs.aws.amazon.com/s3/) & Blog 3 |
+| - Component testing of Amazon Cognito User Pools identity management service.<br>- **Hands-on practice:**<br>&emsp;+ Step 1: Test account registration API calls supplying valid user emails and verify duplicate email constraint handling.<br>&emsp;+ Step 2: Test 6-digit Email OTP delivery and confirmation flows, simulating invalid OTP attempts or expired OTP codes (>10 mins).<br>&emsp;+ Step 3: Test authentication login flow issuing valid JWT tokens and measure authentication response latency. | 28/07/2026 | 28/07/2026 | [Amazon Cognito Developer Guide](https://docs.aws.amazon.com/cognito/) |
+| - Component testing of Amazon DynamoDB NoSQL database service.<br>- **Hands-on practice:**<br>&emsp;+ Step 1: Execute automated Read/Write performance benchmark script against the user profile table.<br>&emsp;+ Step 2: Measure query latency targeting Partition Key user identifier, recording an average response time of sub-6ms.<br>&emsp;+ Step 3: Test Point-in-time recovery (PITR) continuous backup activation and verify Encryption at Rest flags on AWS Console. | 29/07/2026 | 29/07/2026 | [Amazon DynamoDB Developer Guide](https://docs.aws.amazon.com/dynamodb/) |
+| - Component testing of FastAPI Backend Framework and JWT Authentication Middleware.<br>- **Hands-on practice:**<br>&emsp;+ Step 1: Run automated `pytest` suite for backend API routers (authentication and profile management routes).<br>&emsp;+ Step 2: Issue HTTP requests with invalid JWT Access Tokens, expired tokens, or tampered RS256 signatures, verifying mandatory HTTP 401 Unauthorized error responses.<br>&emsp;+ Step 3: Benchmark JWKS key resolution middleware stability and verify trace logs on backend server. | 30/07/2026 | 30/07/2026 | |
+| - End-to-End (E2E) System Integration Testing across the entire project.<br>- **Hands-on practice:**<br>&emsp;+ Step 1: Formulate end-to-end integration test scenarios connecting Web UI frontend to AWS cloud backend infrastructure.<br>&emsp;+ Step 2: Execute complete sequential user flow: Account Registration -> Email OTP -> Account Activation -> Login & JWT Acquisition -> Profile Viewing -> Profile Update -> Direct Avatar Upload to S3 via Presigned URL -> DynamoDB Persistence.<br>&emsp;+ Step 3: Record results: 100% E2E test scenarios passed successfully, demonstrating high system synchronization and reliability. | 31/07/2026 | 31/07/2026 | |
+| - **Team Meeting:** Evaluate DynamoDB & overall project testing performance, summarize SmartDocAI project acceptance sign-off, and prepare for final presentation council.<br>- **Detailed agenda:**<br>&emsp;+ Summarize test results from individual technology component testing (S3, Cognito, DynamoDB, FastAPI) and E2E system testing.<br>&emsp;+ Audit response latency metrics, security isolation rules, and data recovery readiness.<br>&emsp;+ Align technical acceptance sign-off, ready for Week 7 video demo recording and completing remaining documentation sections. | 01/08/2026 | 01/08/2026 | |
 
 ### Results Achieved:
-* Successfully provisioned Amazon DynamoDB database table matching encryption and cost optimization standards.
-* Built base database interaction routines ready for Backend API consumption.
-* Achieved rapid read/write database response performance with low latency.
+* Completed thorough component testing of core technologies (S3, Cognito, DynamoDB, FastAPI) meeting technical benchmarks.
+* Achieved 100% pass rate in End-to-End System Testing across the entire project, confirming high stability and reliability.
+* Team fully prepared for the final week to record the video demo and package report documentation.
