@@ -1,5 +1,5 @@
 ---
-title: "Worklog Tuần 6: Kiểm thử các công nghệ hiện tại & Toàn bộ dự án"
+title: "Nhật ký Tuần 6: Kiểm thử các công nghệ hiện tại & Toàn bộ dự án"
 date: 2024-01-01
 weight: 6
 chapter: false

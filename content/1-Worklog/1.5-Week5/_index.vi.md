@@ -1,5 +1,5 @@
 ---
-title: "Worklog Tuần 5: Biên soạn báo cáo đồ án"
+title: "Nhật ký Tuần 5: Biên soạn báo cáo đồ án"
 date: 2024-01-01
 weight: 5
 chapter: false

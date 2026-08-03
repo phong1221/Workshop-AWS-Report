@@ -1,5 +1,5 @@
 ---
-title: "Worklog Tuần 7: Quay Video Demo & Hoàn thiện nốt các phần báo cáo còn thiếu"
+title: "Nhật ký Tuần 7: Quay Video Demo & Hoàn thiện nốt các phần báo cáo còn thiếu"
 date: 2024-01-01
 weight: 7
 chapter: false

@@ -1,5 +1,5 @@
 ---
-title: "Worklog Tuần 1: Tìm hiểu công nghệ & Hạ tầng AWS Serverless"
+title: "Nhật ký Tuần 1: Tìm hiểu công nghệ & Hạ tầng AWS Serverless"
 date: 2024-01-01
 weight: 1
 chapter: false

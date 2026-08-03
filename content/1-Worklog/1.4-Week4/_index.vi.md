@@ -1,5 +1,5 @@
 ---
-title: "Worklog Tuần 4: Nghiên cứu & Cấu hình Amazon Cognito User Pool"
+title: "Nhật ký Tuần 4: Nghiên cứu & Cấu hình Amazon Cognito User Pool"
 date: 2024-01-01
 weight: 4
 chapter: false

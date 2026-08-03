@@ -1,5 +1,5 @@
 ---
-title: "Worklog Tuần 2: Nghiên cứu & Thiết kế hạ tầng Amazon S3 cho Backend"
+title: "Nhật ký Tuần 2: Nghiên cứu & Thiết kế hạ tầng Amazon S3 cho Backend"
 date: 2024-01-01
 weight: 2
 chapter: false
